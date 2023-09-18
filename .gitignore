@@ -1,3 +1,9 @@
 # Python
 __pycache__/
 .ipynb_checkpoints/
+**/*.egg-info/*
+
+# Build
+build/*
+.cache/*
+compile_commands.json
