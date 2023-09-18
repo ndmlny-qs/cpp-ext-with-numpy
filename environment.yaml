@@ -1,0 +1,8 @@
+name: cpp-ext-with-numpy
+
+channels:
+  - conda-forge
+
+dependencies:
+  # Package managers
+  - pip
