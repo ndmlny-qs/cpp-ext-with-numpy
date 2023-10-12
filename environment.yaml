@@ -4,5 +4,13 @@ channels:
   - conda-forge
 
 dependencies:
+  # Install a version of Python with debug symbols.
+  - conda-forge/label/python_debug::python
+
   # Package managers
   - pip
+
+  # Development dependencies
+  - gdb
+  - ipdb
+  - jupyterlab
